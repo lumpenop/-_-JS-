@@ -6,6 +6,7 @@ const form = document.querySelector(".js-form"),
 const USER_LS = "currentUser",
     SHOWING_CN = "showing";
 
+    
 function saveName(text){
     localStorage.setItem(USER_LS, text);
 }
